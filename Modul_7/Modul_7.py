@@ -21,9 +21,9 @@ fig, ax = plt.subplots()
 ax.xaxis.set_major_locator(MaxNLocator(12))
 ax.grid()
 
-ax.set_title('Курс доллара', fontname="fantasy", fontsize=15)
-ax.set_xlabel('Дата', fontsize=12, color='g')
-ax.set_ylabel('USD', fontsize=12, color='g')
+ax.set_title('Курс доллара', fontname="fantasy", fontsize=20)
+ax.set_xlabel('Дата', fontsize=15, color='g')
+ax.set_ylabel('USD', fontsize=15, color='g')
 ax.plot(dates, doll, color= 'g')
 
 plt.show()
